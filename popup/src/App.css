@@ -1,0 +1,133 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto 35%;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  width: 100%;
+  height: 350px;
+  margin-top: 70px;
+}
+
+.container .header {
+  height: 20%;
+}
+
+button {
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px #0000000b;
+  line-height: 1.575;
+  font-weight: 400;
+  text-align: center;
+  padding: 4px 15px;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  transition: .3s;
+  cursor: pointer;
+  background-color: #56a9f6;
+}
+
+
+.container .popup-fixed .popup {
+  position: relative;
+  margin: auto;
+  width: 520px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+  transition: 1s;
+
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.container .popup-fixed .popup .popup-header {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, .06);
+
+}
+
+.container .popup-fixed .popup .popup-header h5 {
+  padding: 16px 24px;
+  margin: 0;
+  color: #000000d9;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.container .popup-fixed .popup .popup-header span {
+  color: #00000073;
+  margin-right: 8px;
+}
+
+.container .popup-fixed .popup .popup-header span:hover {
+  color: black;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.container .popup-fixed .popup .popup-header span {
+  margin-left: auto;
+}
+
+.container .popup-fixed .popup .popup-content input {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: #000000d9;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.container .popup-fixed .popup .popup-content {
+  padding: 24px;
+  font-size: 14px;
+  line-height: 1.5715;
+}
+
+.container .popup-fixed .popup .popup-footer {
+  padding: 10px 16px;
+  text-align: right;
+  border-top: 1px solid rgba(0, 0, 0, .06);
+}
+
+.container .popup-fixed .popup .popup-footer button {
+  margin-left: 8px;
+}
+
+.container .popup-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+}
+
+.container .popup-fixed-hide {
+  display: none;
+}

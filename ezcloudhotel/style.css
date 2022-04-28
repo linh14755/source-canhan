@@ -1,0 +1,199 @@
+/* --chung-- */
+.text-medium {
+    line-height: 1.29;
+    color: #114a9f;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .09px;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.text-medium-black {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.ez-input-text {
+    border-radius: 8px;
+    border: 1px solid rgb(220, 220, 220);
+    color: rgb(38, 38, 38);
+    font-size: 14px;
+    line-height: 1.71;
+    height: 30px;
+    font-weight: 400;
+    font-stretch: normal;
+    letter-spacing: normal;
+    width: 98%;
+}
+
+.ez-input-text:focus {
+    outline: none;
+    border: 1px solid #114a9f;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+/* -- */
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-image: url('./images/bg-new.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+
+.toolbar {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: end;
+    margin: 20px 0;
+}
+
+.toolbar img {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin: 1px;
+
+}
+
+.toolbar img:last-child {
+    width: 29px;
+    height: 36px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+
+}
+
+.login form {
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+    display: flex;
+    width: 700px;
+}
+
+
+.login-info {
+    padding: 20px 30px;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.login-input {
+    padding: 20px 30px;
+    width: 50%;
+
+}
+
+.login-input input {
+    margin-right: 30px;
+}
+
+.ez-medium {
+    margin-top: 15px;
+}
+
+.text-bottom {
+    padding-top: 22%;
+}
+
+.ez-checkbox {
+    display: flex;
+    margin-top: 15px;
+}
+
+.ez-checkbox span {
+    margin: 0;
+}
+
+.ez-checkbox input {
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.ez-hotel-code-hide {
+    display: none;
+}
+
+.ez-login {
+    margin-top: 15px;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ez-login .ez-button-primary {
+    background-color: #00a0dc;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ez-forgot-password {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #00a0dc;
+    cursor: pointer;
+}
+
+.contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.contact img{
+    cursor: pointer;
+    width: 26px;
+    height: 13px;
+    margin: auto 8px;
+}
+.show-app{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+.show-app span{
+    text-align: center;
+    color: #fff;
+}
+.img-app{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-app img{
+    margin: auto 8px;
+}
